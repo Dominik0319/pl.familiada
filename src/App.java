@@ -5,8 +5,8 @@ System.out.println( "Witaj w grze familiada" );
 Scanner scanner = new Scanner(System.in);  
 String[][] dane = 
 {
-  {"Więcej niż jedno zwierzę","stado","klucz","dwa","owca","lama"},
-  {"Sporty na s","sztafeta","skok o tyczce", "skoki narciarskie", "sumo", "szachy"}
+  {"Więcej niż jedno zwierzę to: ","stado","klucz","dwa","owca","lama"},
+  {"Sporty na s to: ","sztafeta","skok o tyczce", "skoki narciarskie", "sumo", "szachy"}
 };
   int wynik = 0;
 for(int i = 0; i < dane.length; i++){
